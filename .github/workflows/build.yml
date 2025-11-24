@@ -3,9 +3,9 @@ name: Build HyperPods
 on:
   push:
     tags: [ "*" ]
-    branches: [ "main", "aap" ]
+    branches: [ "main", "aap","os3-dev" ]
   pull_request:
-    branches: [ "main", "aap" ]
+    branches: [ "main", "aap","os3-dev" ]
 
 jobs:
   build:
